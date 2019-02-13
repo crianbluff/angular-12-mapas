@@ -1,0 +1,19 @@
+<form action="javascript:void(0);" [formGroup]="forma">
+
+	<mat-form-field>
+		<input matInput placeholder="Título" formControlName="titulo">
+	</mat-form-field>
+
+	<mat-form-field>
+		<textarea rows="3" matInput placeholder="Descripción" formControlName="descripcion"></textarea>
+	</mat-form-field>
+
+	<button mat-raised-button color="primary" (click)="guardarCambios()">
+		Editar
+	</button>
+
+	<button mat-raised-button color="warn" (click)="onNoClick()">
+		Cancelar
+	</button>
+
+</form>

@@ -1,0 +1,12 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.main-container {
+	margin-top: 10px;
+	padding: 10px;
+}
